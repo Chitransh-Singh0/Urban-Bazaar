@@ -18,14 +18,13 @@ const Home = () => {
   const dispatch = useDispatch();
   const cardItem = useSelector((state)=> state.cart);
 
-  console.log(cardItem);
   
   const addCart=()=>{
-    dispatch(addToCart("shirt"));
+    dispatch(addToCart(cardItem));
   }
 
   const deleteCart=()=>{
-    dispatch(deleteFromCart("shirt"));
+    dispatch(deleteFromCart(cardItem));
   }
 
 

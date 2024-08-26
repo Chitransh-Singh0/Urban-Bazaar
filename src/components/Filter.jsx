@@ -7,7 +7,7 @@ function Filter() {
     const { mode, searchkey, setSearchkey, filterType, setFilterType,
         filterPrice, setFilterPrice, product } = context
     return (
-        <div className=' container mx-auto px-4 mt-5 '>
+        <div className='container mx-auto px-4'>
             <div className="p-5 rounded-lg bg-gray-100 drop-shadow-xl border border-gray-200" style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', color: mode === 'dark' ? 'white' : '', }}>
                 <div className="relative">
                     <div className="absolute flex items-center ml-2 h-full">
